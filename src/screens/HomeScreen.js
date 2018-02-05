@@ -10,7 +10,7 @@ class HomeScreen extends Component {
   render() {
     return(
       <View style={styles.container} >
-        <Text>ne9ro</Text>
+        <Text style={styles.text}>NE6RO</Text>
       </View>
     )
   }
@@ -20,6 +20,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'blue'
+  },
+  text: {
+    fontSize: 34,
+    textAlign: 'center'
   }
 })
 
